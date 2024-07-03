@@ -54,7 +54,7 @@ function App() {
     const emi = calculateEMI(downPayment)
     setEMI(emi)
    
-  }, [tenure])
+  }, [tenure,cost,downPayment])
   
 
 
